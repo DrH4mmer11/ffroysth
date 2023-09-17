@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="embed abuse">
+        <title>file</title>
+    </head>
+    <body>
+        <DIV id="parent" style="position:absolute; top:15%; left:20%">
+        	<iframe id="ytvid" width="960" height="540" src="https://www.youtube-nocookie.com/embed/5QVSs6DsMKE" allowfullscreen></iframe>
+            <a href="https://youtube.com/@Konatalovesbreakcore">idk</a>
+            <input id="new-url" width="100" height="50">
+            <button id="change-button" width="100" height="50" onclick="updateVindow()">update</button>
+        </DIV>
+
+    <script type="text/javascript">
+      let urls = "capt 7uXOMbYP2DM vtuber _q5BSR9bktw 17:00 vpWsXk4fqqA";
+      let inputfield = document.getElementById('new-url');
+      let vindow = document.getElementById('ytvid');
+      
+      function updateVindow() {
+      	
+      	vindow.src = "https://www.youtube-nocookie.com/embed/"+inputfield.value;
+      	
+      	//vindow = document.createElement("iframe");
+      	//vindow.width = 960
+      	//vindow.height = 540
+      	//vindow.src = newurl;
+      	//document.getElementById("parent").appendChild(vindow);
+      }
+    </script>
+    </body>
+</html>
